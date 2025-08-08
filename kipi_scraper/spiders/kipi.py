@@ -1,9 +1,9 @@
 # kipi_spider_structured.py
 import scrapy
-import uuid
 import datetime
-import fitz
-import copy
+
+import hashlib
+import base64
 from urllib.parse import urljoin
 from kipi_scraper.items import DocumentItem
 
@@ -11,15 +11,12 @@ class KipiSpider(scrapy.Spider):
     name = "kipi"
     allowed_domains = ["kipi.go.ke"]
     start_urls = [
-        #RESOURCES urls
         "https://www.kipi.go.ke/laws-and-regulations",
         "https://www.kipi.go.ke/practice-notes",
         "https://www.kipi.go.ke/ip-cases-and-rulings",
         "https://www.kipi.go.ke/ip-statistics",
         "https://www.kipi.go.ke/expired-technologies",
         "https://www.kipi.go.ke/bottom-up-economic-transformation-agenda",
-
-        #services urls
         "https://www.kipi.go.ke/patents",
         "https://www.kipi.go.ke/trade-marks",
         "https://www.kipi.go.ke/utility-models",
@@ -29,23 +26,31 @@ class KipiSpider(scrapy.Spider):
         "https://www.kipi.go.ke/fees-schedules",
         "https://www.kipi.go.ke/inventor-assistance",
         "https://www.kipi.go.ke/technology-and-innovation-support-centres-tisc",
-
-        #FAQS urls
         "https://www.kipi.go.ke/faqs"
     ]
 
+    def base32_sha256(self, value: bytes | str) -> str:
+        if isinstance(value, str):
+            value = value.encode("utf-8")
+        digest = hashlib.sha256(value).digest()
+        return base64.b32encode(digest).decode("utf-8").rstrip('=')
+
     def parse(self, response):
         self.logger.info(f"Parsing: {response.url}")
+
+        url_path = response.url.replace("https://www.kipi.go.ke/", "")
+        document_id = self.base32_sha256(url_path)
+
         title = response.css("h1::text, h2::text").get(default="Untitled").strip()
         base_item = DocumentItem()
-        base_item["id"] = str(uuid.uuid4())
+        base_item["id"] = document_id
         base_item["url"] = response.url
         base_item["scraper"] = "kipi_docs"
         base_item["version"] = "v1"
         base_item["name"] = title
         base_item["timestamp"] = datetime.datetime.now(datetime.timezone.utc)
         base_item["ingested_at"] = datetime.datetime.now(datetime.timezone.utc)
-        base_item["path"] = response.url.replace("https://www.kipi.go.ke/", "")
+        base_item["path"] = url_path
 
         blocks = []
         for block in response.css(".elementor-widget-container, article, section"):
@@ -77,28 +82,36 @@ class KipiSpider(scrapy.Spider):
             yield scrapy.Request(
                 download["url"],
                 callback=self.parse_pdf,
-                meta={"item": copy.deepcopy(base_item), "label": download["label"]},
+                meta={"document_url": response.url, "label": download["label"]},
                 dont_filter=True
             )
 
     def parse_pdf(self, response):
-        item = copy.deepcopy(response.meta["item"])
         label = response.meta.get("label")
+        source_url = response.meta.get("document_url")
 
-        item["file_bytes"] = response.body
-        item["file_content_type"] = response.headers.get("Content-Type", b"application/pdf").decode()
+        file_bytes = response.body
+
+        blob_item = DocumentItem()
+        blob_item["file_bytes"] = file_bytes
+        blob_item["file_content_type"] = response.headers.get("Content-Type", b"application/pdf").decode()
+        blob_item["document_id"] = self.base32_sha256(file_bytes)
+        blob_item["timestamp"] = datetime.datetime.now(datetime.timezone.utc)
+        blob_item["url"] = response.url
+        #blob_item["version"] = "v1"
+        blob_item["path"] = source_url.replace("https://www.kipi.go.ke/", "")
 
         try:
-            with fitz.open(stream=response.body, filetype="pdf") as doc:
-                text = "\n\n".join(page.get_text() for page in doc)
+            pass
         except Exception as e:
             text = f"(Error extracting PDF text: {str(e)})"
 
-        item["data"].setdefault("pdfs", []).append({
+        blob_item["data"] = {
             "label": label,
-            "url": response.url,
-            "text": text.strip()
-        })
+            "source_url": source_url,
+            "text": file_bytes
+        }
 
-        yield item
+        yield blob_item
+
 
