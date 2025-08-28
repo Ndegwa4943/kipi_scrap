@@ -1,9 +1,6 @@
 # file: kipi_scraper/pipelines.py
 
 import psycopg2
-import uuid
-import datetime
-import os
 import json
 from dotenv import load_dotenv
 
