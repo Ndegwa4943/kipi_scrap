@@ -66,7 +66,11 @@ DOWNLOAD_DELAY = 1
 #    "kipi_scraper.pipelines.KipiScraperPipeline": 300,
 #}
 ITEM_PIPELINES = {
-    'kipi_scraper.pipelines.PostgresPipeline': 300,
+    'kipi_scraper.pipelines.KipiPipeline': 300,
+}
+
+ITEM_PIPELINES = {
+    "kipi_scraper.pipelines.KipiPipeline": 300,
 }
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -83,7 +87,7 @@ ITEM_PIPELINES = {
 
 # Enable and configure HTTP caching (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
-#HTTPCACHE_ENABLED = True
+HTTPCACHE_ENABLED = True
 #HTTPCACHE_EXPIRATION_SECS = 0
 #HTTPCACHE_DIR = "httpcache"
 #HTTPCACHE_IGNORE_HTTP_CODES = []

@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Scrapy crawl kipii",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "scrapy.cmdline",
+      "cwd": "${workspaceFolder}/kipi_scraper",   // <--- Point directly to inner module folder
+      "args": ["crawl", "kipii"],
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/kipi_scraper"  // <--- Let it see 'kipi_scraper.db'
+      },
+      "python": "${workspaceFolder}/venv/Scripts/python.exe"
+    }
+  ]
+}

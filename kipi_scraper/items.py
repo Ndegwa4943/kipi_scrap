@@ -3,18 +3,25 @@
 import scrapy
 
 class DocumentItem(scrapy.Item):
-    # ---- Main Document DB Fields ----
-    id = scrapy.Field()                  # Deterministic UUID (Base32 hash of path or URL)
-    url = scrapy.Field()                 # Page source URL
-    name = scrapy.Field()                # Page title
-    scraper = scrapy.Field()             # Scraper identifier (e.g., 'kipi_docs')
-    version = scrapy.Field()             # Scraper version label
-    timestamp = scrapy.Field()           # Time of scrape (UTC)
-    ingested_at = scrapy.Field()         # Used later for ingestion tracking
-    path = scrapy.Field()                # Logical section from URL path
-    data = scrapy.Field()                # Extracted content (blocks, downloads, etc.)
+    """
+    Defines the structure of the data to be scraped.
+    Maps directly to the 'documents' and 'scraper_blob_store' tables.
+    """
 
-    # ---- Blob Store Fields ----
-    document_id = scrapy.Field()         # Base32 hash of file content (used as unique id)
-    file_bytes = scrapy.Field()          # Raw file binary (PDF)
-    file_content_type = scrapy.Field()   # Content-Type, e.g., 'application/pdf'
+    # Fields for the 'documents' table
+    url = scrapy.Field()              # Source URL of the document
+    scraper = scrapy.Field()          # Spider or tool that scraped the item
+    version = scrapy.Field()          # SHA-256 hash of the document content
+    name = scrapy.Field()             # Original file name (e.g., abc.pdf)
+    timestamp = scrapy.Field()        # When it was scraped
+    path = scrapy.Field()             # ltree (e.g., kipi.practice_notes.notice_pdf)
+    title = scrapy.Field()
+    section = scrapy.Field()
+    slug = scrapy.Field()
+    data = scrapy.Field()             # Metadata to power JibuDocs search
+
+    # Fields for the 'scraper_blob_store' table
+    file_content_type = scrapy.Field()  # MIME type, e.g., application/pdf
+    source_file = scrapy.Field()        # Raw binary content of the file
+
+

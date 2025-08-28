@@ -1,83 +1,121 @@
 # file: kipi_scraper/pipelines.py
+import os
+from pathlib import Path
+import logging
+from sqlalchemy import select
+from sqlalchemy.exc import SQLAlchemyError, IntegrityError
 
-import psycopg2
-import json
-from dotenv import load_dotenv
+from kipi_scraper.db.session import SessionLocal
+from kipi_scraper.db.models import Document, ScraperBlobStore
+from kipi_scraper.items import DocumentItem
 
-load_dotenv()
+logger = logging.getLogger(__name__)
 
-class PostgresPipeline:
+class KipiPipeline:
+    def __init__(self):
+        self.session = None
+
+    def _ensure_session(self, spider):
+        """Create a DB session if we don't have one yet."""
+        if self.session is None:
+            try:
+                self.session = SessionLocal()
+                spider.logger.info("SQLAlchemy DB session started (lazy).")
+            except Exception as e:
+                spider.logger.exception(f"Failed to create DB session: {e}")
+                raise
+
     def open_spider(self, spider):
-
-        spider.logger.info(f"Connecting to database: {os.getenv('PGDATABASE', 'kipi')}")
-
-        self.conn = psycopg2.connect(
-            host=os.getenv("PGHOST", "localhost"),
-            database=os.getenv("PGDATABASE"),
-            user=os.getenv("PGUSER", "postgres"),
-            password=os.getenv("PGPASSWORD"),
-            port=os.getenv("PGPORT"),
-        )
-        self.cursor = self.conn.cursor()
+        # 
+        # create it at spider open
+        self._ensure_session(spider)
 
     def close_spider(self, spider):
-        self.cursor.close()
-        self.conn.close()
+        if not self.session:
+            return
+        try:
+            self.session.commit()
+        except Exception:
+            self.session.rollback()
+        finally:
+            self.session.close()
+            self.session = None
+            spider.logger.info("SQLAlchemy DB session closed.")
 
     def process_item(self, item, spider):
-        print(f"[DEBUG] Processing item: {item.get('id') or item.get('document_id')}")
+        if not isinstance(item, DocumentItem):
+            return item
 
-        doc_id = item.get('id') or item.get('document_id') or str(uuid.uuid4())
-        now = datetime.datetime.now(datetime.timezone.utc)
-
-        print(f"[PIPELINE] Processing item: {doc_id}")
+        self._ensure_session(spider)
 
         try:
-            # Check for the unique 'file_bytes' field first
-            if item.get("file_bytes"):
-                print(f"[PIPELINE] Inserting into scraper_blob_store → document_id: {item['document_id']}")
-                self.cursor.execute("""
-                    INSERT INTO scraper_blob_store (
-                        id, timestamp, file_content_type,
-                        source_file, document_id
-                    ) VALUES (%s, %s, %s, %s, %s)
-                    ON CONFLICT (document_id) DO NOTHING
-                """, (
-                    str(doc_id),
-                    now,
-                    item['file_content_type'],
-                    psycopg2.Binary(item['file_bytes']),
-                    item['document_id']
-                ))
+            data = item.get('data') or {}
+            content_hash = data.get('content_hash')
+            if not content_hash:
+                spider.logger.error(f"Item missing content_hash: {item.get('name')}")
+                return item
 
-            # check for the main page item
-            elif 'name' in item and 'data' in item:
-                print(f"[PIPELINE] Inserting into documents → ID: {doc_id}")
-                self.cursor.execute("""
-                    INSERT INTO documents (
-                        id, a2_url, scraper, version, name,
-                        timestamp, data, ingested_at, path
-                    ) VALUES (%s, %s, %s, %s, %s, %s, %s::jsonb, %s, %s)
-                    ON CONFLICT (id) DO NOTHING
-                """, (
-                    str(doc_id),
-                    item['url'],
-                    item['scraper'],
-                    item['version'],
-                    item['name'],
-                    item['timestamp'],
-                    json.dumps(item['data']),
-                    item['ingested_at'],
-                    item['path']
-                ))
+            #extract text from JSONB (documents.data ->> 'content_hash')
+            existing_doc = self.session.execute(
+                select(Document).where(
+                    Document.data.op('->>')('content_hash') == content_hash
+                )
+            ).scalars().first()
 
-            else:
-                print(f"[PIPELINE] SKIPPED: Missing required fields → {item}")
+            if existing_doc:
+                spider.logger.info(f"DUPLICATE SKIPPED: {item.get('name')} (content_hash match)")
+                if hasattr(spider, "crawler"):
+                    spider.crawler.stats.inc_value("db/duplicate_items")
+                return item
 
-            self.conn.commit()
+            # Build parent + blob (requires cascade="all, delete-orphan" on relationship)
+            doc = Document(
+                url=item["url"],
+                name=item["name"],
+                path=item["path"],
+                scraper=item["scraper"],
+                timestamp=item["timestamp"],
+                version=item["version"],
+                data=data,
+            )
+            doc.blob = ScraperBlobStore(
+                file_content_type=item["file_content_type"],
+                source_file=item["source_file"],
+            )
 
+            self.session.add(doc)
+            try:
+                self.session.commit()
+            except IntegrityError:
+                self.session.rollback()
+                spider.logger.info(f"DUPLICATE SKIPPED (unique index): {item.get('name')}")
+                if hasattr(spider, "crawler"):
+                    spider.crawler.stats.inc_value("db/duplicate_items")
+                return item
+
+            spider.logger.info(f"DB OK: {doc.name} -> id={doc.id}")
+            if hasattr(spider, "crawler"):
+                spider.crawler.stats.inc_value("db/saved_items")
+
+        except SQLAlchemyError as e:
+            self.session.rollback()
+            spider.logger.exception(
+                f"SQLAlchemy insert failed: {e.__class__.__name__} | {getattr(e, 'orig', e)}"
+            )
+            if hasattr(spider, "crawler"):
+                spider.crawler.stats.inc_value("db/save_errors")
         except Exception as e:
-            spider.logger.error(f"[DB ERROR] Item ID {doc_id} → {e}")
-            self.conn.rollback()
+            # Make sure not to leave a half-used transaction open
+            try:
+                self.session.rollback()
+            except Exception:
+                pass
+            spider.logger.exception(f"Unexpected pipeline error: {e}")
 
         return item
+
+
+
+
+
+

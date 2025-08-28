@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head> 
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>header .site-branding-logo{max-width:500px!important;}header.header-default .header-main-inner .header-inner{padding-left:500px!important;} header.header-default .header-main-inner .branding{width:500px!important;}</style>
+<link rel="icon" href="/sites/default/files/KenyaEmblem.png" type="image/png" />
+<link rel="canonical" href="https://www.kipi.go.ke/ip-journal" />
+<link rel="shortlink" href="https://www.kipi.go.ke/node/177" />
+
+    <title>IP Journal | KIPI</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_P7ClEqMAW3PL-1HCVI2nKNZH0ultFsqnbcthOQVuEhE.css?delta=0&amp;language=en&amp;theme=daudo_subtheme&amp;include=eJx1jo0KwjAMhF9oto9UUpPVYtZKL53s7Z2_m4gEQu4jdxwWmEw-EmRINGdCYOpcfdIaSQ-wRXNJw5zlCv_YbqrcVQYmWyeqwG9nONb2SYJmlqa0SPO_yBEgBje2WkwKv10XShJ7Vt5cO_TP9Wq9Ew7nXFxtVNK97EoCerSTTOK_5fOTZaSudgP4pGvv" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Hind:wght@400;500;600;700&amp;display=swap" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_EvMvoMi7VSfRtoS0stX1SCzJ5wVDI-537udpQmbY6qM.css?delta=2&amp;language=en&amp;theme=daudo_subtheme&amp;include=eJx1jo0KwjAMhF9oto9UUpPVYtZKL53s7Z2_m4gEQu4jdxwWmEw-EmRINGdCYOpcfdIaSQ-wRXNJw5zlCv_YbqrcVQYmWyeqwG9nONb2SYJmlqa0SPO_yBEgBje2WkwKv10XShJ7Vt5cO_TP9Wq9Ew7nXFxtVNK97EoCerSTTOK_5fOTZaSudgP4pGvv" />
+
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/177","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"page":"2"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"datatables":{"#datatable":{"aaSorting":[],"aoColumns":[{"bSortable":false,"sFilterColumnType":false,"bSearchable":true},{"bSortable":false,"sFilterColumnType":false,"bSearchable":true},{"bSortable":false,"sFilterColumnType":false,"bSearchable":true}],"aoColumnHeaders":[{"content":"No.","default_classes":true,"attributes":" id=\u0022view-counter-table-column\u0022 class=\u0022views-field views-field-counter\u0022 scope=\u0022col\u0022"},{"content":"Industrial Property Journal","default_classes":true,"attributes":" id=\u0022view-title-table-column\u0022 class=\u0022views-field views-field-title\u0022 scope=\u0022col\u0022"},{"content":"Action","default_classes":false,"attributes":" id=\u0022view-field-ip-journal-table-column\u0022 class=\u0022views-field views-field-title\u0022 scope=\u0022col\u0022"}],"bInfo":true,"bFilter":true,"bStateSave":false,"sFilterColumnsPlaceholder":"- Filter -","bFilterColumns":false,"bLengthChange":0,"iDisplayLength":10,"bAutoWidth":false,"oLanguage":{"sEmptyTable":"No data available in table","sInfo":"Displaying _START_ - _END_ of _TOTAL_","sInfoEmpty":"Displaying 0 - 0 of 0","sInfoFiltered":"(filtered from _MAX_ total entries)","sInfoPostFix":"","sProcessing":"Processing...","sLengthMenu":"Show _MENU_ entries","sLoadingRecords":"Loading...","sZeroRecords":"No matching records found","sSearch":"Search","oPaginate":{"sFirst":"First","sPrevious":"Previous","sNext":"Next","sLast":"Last"},"oAria":{"sSortAscending":": activate to sort column ascending","sSortDescending":": activate to sort column descending"}}}},"ajaxTrustedUrl":{"\/search\/node":true},"user":{"uid":0,"permissionsHash":"c12fc211caa24da40feb1da3f790a5ef02aa7bfc9fcc6e0887aaa6a23792372f"}}</script>
+<script src="/sites/default/files/js/js_1z-kvjJ2rZ-QUwBR2-g92vSIbv2AhY8hsrx9fPNaf5U.js?scope=header&amp;delta=0&amp;language=en&amp;theme=daudo_subtheme&amp;include=eJxtjuEKwjAMhF9oax-ppOYWi7GVJh3s7RVFNpnkz90H3xGhtZAlpsEtirZMOptvWqpMTP66rLC4x_80XVrHJJ8x08LoSht6PKNAZnALS2_VUflrPUiQR1HerQM6We-Pk43sV9wRf2uwW6mBsdBQfwLhBVm4"></script>
+
+
+    
+
+          <style type="text/css">
+        header.header-2 .header-main {padding: 5px 0;}header .site-branding-logo img {width: 600px;}img.logo-site img {max-width: 600px;}header.header-2 .main-menu .navigation .gva_menu > li > a {padding-top: 12px;padding-bottom: 12px;}.gsc-heading .sub-title {text-transform: Capitalize;}.text-theme {color: #0274a1 !important;}.text-gray {color: #121417 !important;}.gsc-icon-box-new.style-1 .icon-inner {background: #0274a1;}.gsc-icon-box-new.style-2 .icon-inner {background: #0274a1;}.gsc-icon-box-new.style-5:hover .icon-inner .icon {background: #0274a1;}.gsc-icon-box-new.style-5 .content-inner .desc {color: #121417;}.panel .panel-heading .panel-title > a {color: #0274a1;}.panel .panel-heading .panel-title > a.collapsed:after {background: #0274a1;}.path-media-gallery .field--name-images {padding-top: 30px;padding-bottom:30px;}#footer .footer-center {padding: 20px 0 5px;}.block .block-title {margin-bottom: 15px;padding-bottom: 15px;}.navigation .gva_menu > li > a { padding:0px 10px;}.gva-search-region .icon {color: #fff;}.post-block.teaser-2 .post-content .post-title {font-size: 18px;line-height: 25px;}.post-block .post-title {line-height: 1.1;font-size: 18px;}.contact-info ul li {margin-bottom: 5px;padding-bottom: 5px;font-size: 13px;}.navigation .gva_menu .sub-menu > li {padding: 4px 0;}.navigation .gva_menu .sub-menu > li > a {border-bottom: 1px solid rgba(236,97,100,0.2);}#footer .footer-center {padding: 25px 0 10px;}#footer .block .block-title {font-size: 16px; }#footer .copyright a {color: #E96411 !important;}#footer .copyright .copyright-inner {padding: 20px 0;}.btn-theme {background: #000;}.btn-theme:hover {background: #E96411;}.gavias_sliderlayer .btn-slide a { background: #000;}.btn-theme {color: #000 !important;}.gsc-icon-box-new.style-5 .content-inner .title {font-size: 18px;}.hpicons .gsc-icon-box-new.style-5 {padding: 5px;margin-bottom: -2px;background: transparent;color:#ffffff;}.hpicons .gsc-icon-box-new.style-5 .content-inner .title {color: #fff;font-size: 14px;padding-top: 5px;}.hpicons .gsc-icon-box-new.style-5 .content-inner .desc a {color: #000 !important;}.hpicons .column-box-shadow {padding: 20px;}#pojo-a11y-toolbar .pojo-a11y-toolbar-toggle a {margin-top: 60px;}.team-block.team-v2 .team-content .team-name a {font-size: 18px;}.team-block.team-v2 .team-image img {border-radius: 600px;}.gsc-video-box.style-2 .image .popup-video {background: #ffffff;color: #000;}.gsc-icon-box-new.style-5 {background: #213b73; margin-bottom: 0px;padding: 2px;}
+      </style>
+    
+          <style class="customize">body{font-size: 15px;}body{font-weight: 400;}body .body-page{color: #00171f;}body .body-page a{color: #e96411!important;}.topbar{background: #213b73!important;} .main-menu, ul.gva_menu, header.header-default .header-main, .header-1, .header-2 .header-main-content, .header.header-default .stuck{background: #213b73!important;} .main-menu ul.gva_menu > li > a, .main-menu ul.gva_menu > li > a .icaret{color: #ffffff!important;} .main-menu ul.gva_menu > li > a:hover, .main-menu ul.gva_menu > li > a:hover .icaret{color: #0383b5!important;} #footer .footer-center{background: #213b73!important;} #footer .footer-center, #footer .block .block-title span, body.footer-white #footer .block .block-title span{color: #ffffff !important;}#footer .footer-center ul.menu > li a::after, .footer a{color: #ffffff!important;}#footer .footer-center a:hover{color: #e96411 !important;}.copyright{background: #00171f !important;} .copyright{color: #ffffff !important;}</style>
+    
+  </head>
+
+  
+  <body class="hidden-title gavias-pagebuilder layout-no-sidebars wide path-node node--type-page">
+
+    <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+
+      
+
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="gva-body-wrapper">
+	<div class="body-page gva-body-page">
+		
+	   <header id="header" class="header-2">
+  
+      <div class="topbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="topbar-content-inner clearfix"> 
+              <div class="topbar-content">  <div>
+    <div id="block-topbarright" class="block block-block-content block-block-contenta87cb642-bb80-4bd8-9bb0-ed5e2d4da5e0 no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="row">
+   <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-6 d-small-none">
+      <div class="topbar-information">
+         <ul class="infor-list">
+            <!-- li class="address d-xl-block d-lg-block d-md-block d-none"><i class="fas fa-map-marked-alt"></i> Nairobi Kenya </li -->
+            <li class="address"><i class="fas fa-envelope-open-text"></i> info@kipi.go.ke</li>
+            <li class="address"><a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i> Staff Mail</a></li>
+            <li class="address"><a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i> FAQs</a></li>
+            <li class="address"><a href="https://www.facebook.com/profile.php?id=100068862714252"><i class="fab fa-facebook"></i></a></li>
+           <li class="address"><a href="https://twitter.com/kipikenya"><i class="fab fa-twitter"></i></a></li>
+       <li class="address"><a href="https://www.youtube.com/watch?v=ZiDoRe8FNpo"><i class="fab fa-youtube"></i></a></li>
+          <li class="address"><a href="https://kipi.ecitizen.go.ke/services">eCitizen </i></a></li>
+              </ul>
+           </div>
+ </div>
+  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 d-xs-12 col-4 text-right">
+     <a href="https://www.kipi.go.ke/sites/default/files/KIPI/Newsletters_and_Reports/eCitizen%20notice%20to%20the%20public.pdf">
+<i class="fa fa-volume-up" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+Public Notice on Payment for KIPI Services on E-Citizen Platform.<i class="fa fa-star" aria-hidden="true"></i>
+       </div>
+ 
+</div>
+
+   </div>
+
+
+     
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+</div>
+                          </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  
+      
+
+  <div class="header-main">
+    <div class="container">
+      <div class="header-inner clearfix">
+        <div class="row">
+          <div class="col-md-6 col-sm-4 col-xs-4 branding">
+                            <div>
+    
+      <a href="/" title="Home" rel="home" class="site-branding-logo">
+        
+        <img class="logo-site" src="/sites/default/files/KIPI%20Banner_0.jpg" alt="Home" />
+        
+    </a>
+    
+  </div>
+
+                      </div>
+          <div class="col-md-6 col-sm-8 col-xs-8 right-header">
+                      </div>
+        </div>  
+      </div>
+    </div>  
+  </div>
+
+  <div class="main-menu ">
+    <div class="container header-content-layout">
+      <div class="header-main-inner p-relative">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 p-static">
+            <div class="area-main-menu">
+              <div class="area-inner">
+                <div class="gva-offcanvas-mobile">
+                  <div class="close-offcanvas hidden"><i class="fa fa-times"></i></div>
+                                        <div>
+    <nav aria-labelledby="block-daudo-subtheme-mainnavigation-menu" id="block-daudo-subtheme-mainnavigation" class="block block-menu navigation menu--main">
+          
+  
+  <h2  class="visually-hidden block-title block-title" id="block-daudo-subtheme-mainnavigation-menu"><span>Main navigation</span></h2>
+  
+  <div class="block-content">
+                 
+<div class="gva-navigation">
+
+              <ul  class="clearfix gva_menu gva_menu_main">
+      
+                              
+            <li  class="menu-item ">
+        <a data-link_id="link-355003014" href="/">          Home        </a>
+          
+              </li>
+                          
+            <li  class="menu-item menu-item--expanded ">
+        <a data-link_id="link-177998302" href="/">          About Us<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+            <li  class="menu-item">
+        <a data-link_id="link-1637841367" href="/background-information">          Background        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-2145376394" href="/vision-mission-core-values-core-functions">          Vision, Mission, Core Values &amp; Functions        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-1572528578" href="/board-directors">          Board of Directors        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-1335692016" href="/senior-management">          Senior Management        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-60985832" href="/service-charter">          Service Charter        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-1576213386" href="/strategic-plan">          Strategic Plan        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+            <li  class="menu-item menu-item--expanded ">
+        <a data-link_id="link-128420134" href="">          Services<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+            <li  class="menu-item">
+        <a data-link_id="link-944360020" href="/patents">          Patents        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-857679521" href="/trade-marks">          Trade Marks        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-257719212" href="/utility-model">          Utility Model        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-537181648" href="/industrial-design">          Industrial Design        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-1655872429" href="/patent-and-trademark-forms">          Patent &amp; Trademark Forms        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-2113073068" href="/fees-schedules">          Fees Schedules        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-1129874767" href="/patent-agents">          Patent Agents        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-1482713548" href="https://ipsearch.kipi.go.ke/">          Patent Search        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-2142037708" href="/inventor-assistance-program">          Inventor Assistance Program        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-1848515806" href="/technology-and-innovation-support-centres-tisc">          Technology and Innovation Support Centres (TISC)2        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+            <li  class="menu-item menu-item--expanded ">
+        <a data-link_id="link-1826356743" href="">          eServices<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+            <li  class="menu-item">
+        <a data-link_id="link-1601460419" href="https://kipi.ecitizen.go.ke/">          eCitizen Payments        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-384193626" href="https://www.kipi.go.ke/sites/default/files/KIPI/Newsletters_and_Reports/eCitizen%20notice%20to%20the%20public.pdf">          Public Notice on Payment for KIPI Services on E-Citizen Platform        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+            <li  class="menu-item ">
+        <a data-link_id="link-1498582485" href="/ip-journal">          IP Journal        </a>
+          
+              </li>
+                          
+            <li  class="menu-item menu-item--expanded ">
+        <a data-link_id="link-1094854325" href="/">          Resources<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+            <li  class="menu-item">
+        <a data-link_id="link-1400841968" href="/laws-and-regulations">          Laws &amp; Regulations        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-87254729" href="/practice-notes">          Practice Notes        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-1213252563" href="/ip-cases-rulings">          IP Cases &amp; Rulings        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-2024771834" href="/ip-statistics">          IP Statistics        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-1707282122" href="/bottom-economic-transformation-agenda">          Bottom-up Economic Transformation Agenda        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-1741358150" href="/public-complaints">          Public Complaints        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-886097137" href="/national-cohesion-and-values">          National Cohesion and Values         </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-62614030" href="/road-safety">          Road Safety        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-1948583183" href="/expired-ip-technologies">          Expired IP Technologies        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-1122505842" href="https://www.kipi.go.ke/sites/default/files/KIPI/Acts%20and%20Regulations/NICE_CLASSIFICATION_ED12.pdf">          List of Nice Classes -Trademarks        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+            <li  class="menu-item menu-item--expanded ">
+        <a data-link_id="link-479295657" href="">          Media Centre<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+            <li  class="menu-item">
+        <a data-link_id="link-94755112" href="/news-events">          News &amp; Events        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-264714521" href="/gallery">          Gallery        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-598553126" href="/ip-publications">          IP Publications        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-146984357" href="/public-notices">          Public Notices        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-20675821" href="/outreach-program">          Outreach Program        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-444354419" href="/newsletters-and-reports">          Newsletters and Reports        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-1905128099" href="/wipo-global-awards-2025">          WIPO Global Awards 2025        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+            <li  class="menu-item menu-item--expanded ">
+        <a data-link_id="link-203227505" href="/">          Opportunities<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+            <li  class="menu-item">
+        <a data-link_id="link-124812786" href="/tenders">          Tenders        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a data-link_id="link-10685114" href="/careers">          Careers        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+            <li  class="menu-item ">
+        <a data-link_id="link-1131157361" href="/faqs">          FAQs        </a>
+          
+              </li>
+                          
+            <li  class="menu-item ">
+        <a data-link_id="link-816956511" href="/contact-us">          Contact Us        </a>
+          
+              </li>
+        </ul>
+  
+
+</div>
+
+
+        </div>  
+</nav>
+
+  </div>
+
+                  
+                    
+                                  </div>
+                  
+                <div id="menu-bar" class="menu-bar menu-bar-mobile d-lg-none d-xl-none">
+                  <span class="one"></span>
+                  <span class="two"></span>
+                  <span class="three"></span>
+                </div>
+    
+                                  <div class="gva-search-region search-region">
+                    <span class="icon"><i class="fas fa-search"></i></span>
+                    <div class="search-content">  
+                        <div>
+    <div class="search-block-form block block-search container-inline" data-drupal-selector="search-block-form" id="block-daudo-subtheme-searchform" role="search">
+  
+    
+      <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="search-form search-block-form">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input class="search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" />
+</div>
+
+</form>
+
+  </div>
+
+  </div>
+
+                    </div>  
+                  </div>
+                                
+                  
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+
+		
+		
+		<div role="main" class="main main-page">
+		
+			<div class="clearfix"></div>
+				
+
+							<div class="help  gav-help-region">
+					<div class="container">
+						<div class="content-inner">
+							  <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+						</div>
+					</div>
+				</div>
+			
+			<div class="clearfix"></div>
+						
+			<div class="clearfix"></div>
+			
+			<div id="content" class="content content-full">
+				<div class="container container-bg">
+					<div class="content-main-inner">
+	<div id="page-main-content" class="main-content">
+		<div class="main-content-inner">
+			
+							<div class="content-main">
+					  <div>
+    <div id="block-daudo-subtheme-content" class="block block-system block-system-main-block no-title">
+  
+    
+      <div class="content block-content">
+      <!-- Start Display article for detail page -->
+
+<div data-history-node-id="177" typeof="schema:WebPage" class="node node--type-page node--view-mode-full">
+  <div class="header-title">
+  
+    <div class="container">
+      <h1 class="title"><span>
+<span property="schema:name">IP Journal</span>
+</span></h1>
+    </div>
+  </div>
+  
+  <div class="node__content clearfix">
+    <div class="gavias-builder--content">		  	<div class="gbb-row-wrapper section row-first-level gbb-row bg-size-cover"  style=""  >
+		  			    	<div class="bb-inner padding-small">  
+		      	<div class="bb-container container">
+			        	<div class="row row-wrapper">
+							
+		<div  class="gsc-column col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" >
+	      <div class="column-inner bg-size-cover">
+	         <div class="column-content-inner">
+	           
+         <div class="widget gsc-heading  align-left style-1 padding-bottom-20" style="max-width: 800px;" >
+            
+            <div class="heading-content clearfix">
+               <div class="sub-title fweight-500 text-gray"><span>KIPI</span></div>               <h2 class="title fsize-26 fweight-600 text-black">
+                  <span>Industrial Property Journal</span>
+               </h2>                           </div>
+            
+            
+         </div>
+         <div class="clearfix"></div>
+         <div><div class="widget block clearfix gsc-block-view  gsc-block-drupal block-view title-align-left  text-dark remove-margin-off" ><div class="views-element-container"><div class="gva-view js-view-dom-id-9f3832f61514c990b0f3dd10d4c4cb2fe46ce08a12d223070622e8ea3192eec8">
+  
+  
+  
+
+  
+  
+  
+
+  <table id="datatable" class="display cols-3">
+        <thead>
+      <tr>
+                                                  <th id="view-counter-table-column" class="views-field views-field-counter" scope="col">No.</th>
+                                                  <th id="view-title-table-column" class="views-field views-field-title" scope="col">Industrial Property Journal</th>
+                            <th id="view-field-ip-journal-table-column" class="views-field views-field-title" scope="col">Action</th>
+              </tr>
+    </thead>
+    <tbody>
+          <tr>
+                                                                                        <td headers="view-counter-table-column" class="views-field views-field-counter">25          </td>
+                                                                                        <td headers="view-title-table-column" class="views-field views-field-title">2007 Journals          </td>
+                            <td headers="view-field-ip-journal-table-column" class="views-field views-field-title"><span class="file file--mime-application-rar file--general"><a href="/sites/default/files/2023-09/2007.rar" type="application/rar" title="2007.rar">Download</a></span>
+  <span>(28.58 MB)</span>
+          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-counter-table-column" class="views-field views-field-counter">26          </td>
+                                                                                        <td headers="view-title-table-column" class="views-field views-field-title">2006 Journals          </td>
+                            <td headers="view-field-ip-journal-table-column" class="views-field views-field-title"><span class="file file--mime-application-rar file--general"><a href="/sites/default/files/2023-09/2006.rar" type="application/rar" title="2006.rar">Download</a></span>
+  <span>(4.66 MB)</span>
+          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-counter-table-column" class="views-field views-field-counter">27          </td>
+                                                                                        <td headers="view-title-table-column" class="views-field views-field-title">2004 Journals          </td>
+                            <td headers="view-field-ip-journal-table-column" class="views-field views-field-title"><span class="file file--mime-application-rar file--general"><a href="/sites/default/files/2023-09/2004.rar" type="application/rar" title="2004.rar">Download</a></span>
+  <span>(6.25 MB)</span>
+          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-counter-table-column" class="views-field views-field-counter">28          </td>
+                                                                                        <td headers="view-title-table-column" class="views-field views-field-title">2003  Journals          </td>
+                            <td headers="view-field-ip-journal-table-column" class="views-field views-field-title"><span class="file file--mime-application-rar file--general"><a href="/sites/default/files/2023-09/2003.rar" type="application/rar" title="2003.rar">Download</a></span>
+  <span>(2.04 MB)</span>
+          </td>
+              </tr>
+      </tbody>
+</table>
+
+      <nav class="pager">
+    <ul class="pager__items js-pager__items">
+                    <li class="pager__item pager__item--first">
+          <a href="?page=0" title="Go to first page">
+            <span class="visually-hidden">First page</span>
+            <span aria-hidden="true">« First</span>
+          </a>
+        </li>
+                          <li class="pager__item pager__item--previous">
+          <a href="?page=1" title="Go to previous page" rel="prev">
+            <span class="visually-hidden">Previous page</span>
+            <span aria-hidden="true">‹ Previous</span>
+          </a>
+        </li>
+                                      <li class="pager__item">
+                                          <a href="?page=0" title="Go to page 1">
+            <span class="visually-hidden">
+              Page
+            </span>1</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=1" title="Go to page 2">
+            <span class="visually-hidden">
+              Page
+            </span>2</a>
+        </li>
+              <li class="pager__item is-active">
+                                          <a href="?page=2" title="Current page" aria-current="page">
+            <span class="visually-hidden">
+              Current page
+            </span>3</a>
+        </li>
+                                              </ul>
+  </nav>
+
+
+  
+  
+
+  
+  
+</div>
+</div>
+</div></div>	         </div>  
+	      </div>
+        
+	    </div>
+	   	     	 			</div>
+    				</div>
+  				</div>  
+			  				</div>  
+		</div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+
+  </div>
+
+				</div>
+			
+					</div>
+	</div>
+</div>
+
+				</div>
+			</div>
+
+			
+						
+		</div>
+	</div>
+
+	
+<footer id="footer" class="footer">
+  <div class="footer-inner">
+    
+         
+     <div class="footer-center">
+        <div class="container">      
+           <div class="row">
+                              <div class="footer-first col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 footer-column">
+                    <div>
+    <div id="block-relatedlinks" class="block block-block-content block-block-contentf2b0675c-e028-41d9-9634-d933723621d9">
+  
+      <h2 class="block-title" ><span>Stakeholder Links</span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="contact-info">
+<ul>
+	<li><a href="https://www.trade.go.ke">Ministry of Investments,Trade and Industry</a></li>
+	<li><a href="https://copyright.go.ke/">Kenya Copyright Board (KECOBO)&nbsp;</a></li>
+	<li><a href="https://www.aca.go.ke">Anti-Counterfeit Authority</a></li>
+	<li><a href="https://www.invest.go.ke/">Kenya Investment Authority (KenInvest)</a></li>
+	<li><a href="https://www.kirdi.go.ke/">Kenya Industrial Research and Development Institute (KIRDI)</a></li>
+	<li><a href="https://www.innovationagency.go.ke/">Kenya National Innovation Agency (KeNIA)</a></li>
+	<li><a href="https://www.kebs.org/">Kenya Bureau Of Standards (KEBS)</a></li>
+	<li><a href="https://brand.ke/">Kenya Export Promotion and Branding Agency</a></li>
+	<li><a href="https://www.aripo.org/">African Regional Intellectual Property Organization (ARIPO)</a></li>
+	<li><a href="https://www.wipo.int/">World Intellectual Property Organization (WIPO)</a></li>
+</ul>
+</div>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                             <div class="footer-second col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 footer-column">
+                    <div>
+    <div id="block-quicklinks" class="block block-block-content block-block-contentc5e13b74-911e-4149-a3e9-4318c1d68cea">
+  
+      <h2 class="block-title" ><span>Quick Links</span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul>
+	<li><a href="https://www.kipi.go.ke/sites/default/files/KIPI/Newsletters_and_Reports/eCitizen%20notice%20to%20the%20public.pdf">Public Notice on payment for Institute Services on e-citizen platform</a></li>
+	<li><a href="/patent-and-trademark-forms"><span>Patent and Trade Mark Forms</span></a></li>
+	<li><a href="https://www.kipi.go.ke/background-information">Background Information</a></li>
+	<li><a href="https://kipi.ecitizen.go.ke/services">Access eCitizen services</a></li>
+	<li><a href="/public-complaints">Public Complaints</a></li>
+</ul>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                              <div class="footer-third col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 footer-column">
+                    <div>
+    <div id="block-daudo-subtheme-contactinfo" class="block block-block-content block-block-content7da38301-272f-4979-8de1-06b564010f17">
+  
+      <h2 class="block-title" ><span>Contact info</span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="contact-info">
+    <p class="description">Kenya Industrial Property Institute (KIPI)</p>
+	<ul class="contact-info-list">
+		<li><span><i class="fas fa-home"></i>KIPI Centre, 17 Kabarsiran Avenue, Off Waiyaki Way, Lavington</span> </li>
+		<li><span><i class="fas fa-mobile-alt"></i> 020-6002210/11, 6006326/29/36, 2386220 </span></li>
+                <li><span><i class="fas fa-mobile-alt"></i> +254 702 002020, +254 736 002020 </span></li>
+		<li><a href="mailto:info@kipi.go.ke"><i class="far fa-envelope"></i> info@kipi.go.ke</a> </li>
+	</ul>
+</div></div>
+      
+    </div>
+  </div>
+<div id="block-accessibility" class="block block-block-content block-block-content42d31288-1713-4533-b1e5-71d78efc1b66 no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><link href="{{ url(" id="pojo-a11y-css" rel="stylesheet">
+<style type="text/css">#pojo-a11y-toolbar .pojo-a11y-toolbar-toggle a{ background-color: #D0AC01;  color: #ffffff;}
+   #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay, #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items.pojo-a11y-links{ border-color: #bb8114;}
+   body.pojo-a11y-focusable a:focus{ outline-style: solid !important;  outline-width: 1px !important;  outline-color: #000 !important;}
+ 
+   #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay{ background-color: #ffffff;}
+   #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items li.pojo-a11y-toolbar-item a, #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay p.pojo-a11y-toolbar-title{ color: #333333;}
+   #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items li.pojo-a11y-toolbar-item a.active{ background-color: #4054b2; color: #ffffff;}
+</style>
+<script id="pojo-a11y-js-extra">
+   var PojoA11yOptions = {"focusable":"","remove_link_target":"","add_role_links":"","enable_save":"","save_expiration":""};
+</script><script src="{{ url("><front>') }}libraries/js/app.min.js?ver=1.0.0' id='pojo-a11y-js'></script>
+<nav class="pojo-a11y-toolbar-right pojo-a11y-" id="pojo-a11y-toolbar" role="navigation">
+<div class="pojo-a11y-toolbar-toggle"><a class="pojo-a11y-toolbar-link pojo-a11y-toolbar-toggle-link" href="javascript:void(0);" title="Accessibility Tools"><span class="pojo-sr-only sr-only">Open toolbar</span> <svg fill="currentColor" viewBox="0 0 100 100" width="1em"> <g> <path d="M60.4,78.9c-2.2,4.1-5.3,7.4-9.2,9.8c-4,2.4-8.3,3.6-13,3.6c-6.9,0-12.8-2.4-17.7-7.3c-4.9-4.9-7.3-10.8-7.3-17.7c0-5,1.4-9.5,4.1-13.7c2.7-4.2,6.4-7.2,10.9-9.2l-0.9-7.3c-6.3,2.3-11.4,6.2-15.3,11.8C7.9,54.4,6,60.6,6,67.3c0,5.8,1.4,11.2,4.3,16.1s6.8,8.8,11.7,11.7c4.9,2.9,10.3,4.3,16.1,4.3c7,0,13.3-2.1,18.9-6.2c5.7-4.1,9.6-9.5,11.7-16.2l-5.7-11.4C63.5,70.4,62.5,74.8,60.4,78.9z" /> <path d="M93.8,71.3l-11.1,5.5L70,51.4c-0.6-1.3-1.7-2-3.2-2H41.3l-0.9-7.2h22.7v-7.2H39.6L37.5,19c2.5,0.3,4.8-0.5,6.7-2.3c1.9-1.8,2.9-4,2.9-6.6c0-2.5-0.9-4.6-2.6-6.3c-1.8-1.8-3.9-2.6-6.3-2.6c-2,0-3.8,0.6-5.4,1.8c-1.6,1.2-2.7,2.7-3.2,4.6c-0.3,1-0.4,1.8-0.3,2.3l5.4,43.5c0.1,0.9,0.5,1.6,1.2,2.3c0.7,0.6,1.5,0.9,2.4,0.9h26.4l13.4,26.7c0.6,1.3,1.7,2,3.2,2c0.6,0,1.1-0.1,1.6-0.4L97,77.7L93.8,71.3z" /> </g> </svg> </a></div>
+
+<div class="pojo-a11y-toolbar-overlay">
+<div class="pojo-a11y-toolbar-inner">
+<p class="pojo-a11y-toolbar-title">Accessibility Tools</p>
+
+<ul class="pojo-a11y-toolbar-items pojo-a11y-tools">
+	<li class="pojo-a11y-toolbar-item"><a class="pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-plus" data-action="resize-plus" data-action-group="resize" href="#" tabindex="-1"><span class="pojo-a11y-toolbar-icon"><svg version="1.1" viewBox="0 0 448 448" width="1em"> <path d="M256 200v16c0 4.25-3.75 8-8 8h-56v56c0 4.25-3.75 8-8 8h-16c-4.25 0-8-3.75-8-8v-56h-56c-4.25 0-8-3.75-8-8v-16c0-4.25 3.75-8 8-8h56v-56c0-4.25 3.75-8 8-8h16c4.25 0 8 3.75 8 8v56h56c4.25 0 8 3.75 8 8zM288 208c0-61.75-50.25-112-112-112s-112 50.25-112 112 50.25 112 112 112 112-50.25 112-112zM416 416c0 17.75-14.25 32-32 32-8.5 0-16.75-3.5-22.5-9.5l-85.75-85.5c-29.25 20.25-64.25 31-99.75 31-97.25 0-176-78.75-176-176s78.75-176 176-176 176 78.75 176 176c0 35.5-10.75 70.5-31 99.75l85.75 85.75c5.75 5.75 9.25 14 9.25 22.5z" fill="currentColor" /> </svg> </span> <span class="pojo-a11y-toolbar-text">Increase Text</span> </a></li>
+	<li class="pojo-a11y-toolbar-item"><a class="pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-minus" data-action="resize-minus" data-action-group="resize" href="#" tabindex="-1"><span class="pojo-a11y-toolbar-icon"><svg version="1.1" viewBox="0 0 448 448" width="1em"> <path d="M256 200v16c0 4.25-3.75 8-8 8h-144c-4.25 0-8-3.75-8-8v-16c0-4.25 3.75-8 8-8h144c4.25 0 8 3.75 8 8zM288 208c0-61.75-50.25-112-112-112s-112 50.25-112 112 50.25 112 112 112 112-50.25 112-112zM416 416c0 17.75-14.25 32-32 32-8.5 0-16.75-3.5-22.5-9.5l-85.75-85.5c-29.25 20.25-64.25 31-99.75 31-97.25 0-176-78.75-176-176s78.75-176 176-176 176 78.75 176 176c0 35.5-10.75 70.5-31 99.75l85.75 85.75c5.75 5.75 9.25 14 9.25 22.5z" fill="currentColor" /> </svg> </span> <span class="pojo-a11y-toolbar-text">Decrease Text</span> </a></li>
+	<li class="pojo-a11y-toolbar-item"><a class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-grayscale" data-action="grayscale" data-action-group="schema" href="#" tabindex="-1"><span class="pojo-a11y-toolbar-icon"><svg version="1.1" viewBox="0 0 448 448" width="1em"> <path d="M15.75 384h-15.75v-352h15.75v352zM31.5 383.75h-8v-351.75h8v351.75zM55 383.75h-7.75v-351.75h7.75v351.75zM94.25 383.75h-7.75v-351.75h7.75v351.75zM133.5 383.75h-15.5v-351.75h15.5v351.75zM165 383.75h-7.75v-351.75h7.75v351.75zM180.75 383.75h-7.75v-351.75h7.75v351.75zM196.5 383.75h-7.75v-351.75h7.75v351.75zM235.75 383.75h-15.75v-351.75h15.75v351.75zM275 383.75h-15.75v-351.75h15.75v351.75zM306.5 383.75h-15.75v-351.75h15.75v351.75zM338 383.75h-15.75v-351.75h15.75v351.75zM361.5 383.75h-15.75v-351.75h15.75v351.75zM408.75 383.75h-23.5v-351.75h23.5v351.75zM424.5 383.75h-8v-351.75h8v351.75zM448 384h-15.75v-352h15.75v352z" fill="currentColor" /> </svg> </span> <span class="pojo-a11y-toolbar-text">Grayscale</span> </a></li>
+	<li class="pojo-a11y-toolbar-item"><a class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-high-contrast" data-action="high-contrast" data-action-group="schema" href="#" tabindex="-1"><span class="pojo-a11y-toolbar-icon"><svg version="1.1" viewBox="0 0 448 448" width="1em"> <path d="M192 360v-272c-75 0-136 61-136 136s61 136 136 136zM384 224c0 106-86 192-192 192s-192-86-192-192 86-192 192-192 192 86 192 192z" fill="currentColor" /> </svg> </span> <span class="pojo-a11y-toolbar-text">High Contrast</span> </a></li>
+	<li class="pojo-a11y-toolbar-item"><a class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-negative-contrast" data-action="negative-contrast" data-action-group="schema" href="#" tabindex="-1"><span class="pojo-a11y-toolbar-icon"><svg version="1.1" viewBox="0 0 448 448" width="1em"> <path d="M416 240c-23.75-36.75-56.25-68.25-95.25-88.25 10 17 15.25 36.5 15.25 56.25 0 61.75-50.25 112-112 112s-112-50.25-112-112c0-19.75 5.25-39.25 15.25-56.25-39 20-71.5 51.5-95.25 88.25 42.75 66 111.75 112 192 112s149.25-46 192-112zM236 144c0-6.5-5.5-12-12-12-41.75 0-76 34.25-76 76 0 6.5 5.5 12 12 12s12-5.5 12-12c0-28.5 23.5-52 52-52 6.5 0 12-5.5 12-12zM448 240c0 6.25-2 12-5 17.25-46 75.75-130.25 126.75-219 126.75s-173-51.25-219-126.75c-3-5.25-5-11-5-17.25s2-12 5-17.25c46-75.5 130.25-126.75 219-126.75s173 51.25 219 126.75c3 5.25 5 11 5 17.25z" fill="currentColor" /> </svg> </span> <span class="pojo-a11y-toolbar-text">Negative Contrast</span> </a></li>
+	<li class="pojo-a11y-toolbar-item"><a class="pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-light-background" data-action="light-background" data-action-group="schema" href="#" tabindex="-1"><span class="pojo-a11y-toolbar-icon"><svg version="1.1" viewBox="0 0 448 448" width="1em"> <path d="M184 144c0 4.25-3.75 8-8 8s-8-3.75-8-8c0-17.25-26.75-24-40-24-4.25 0-8-3.75-8-8s3.75-8 8-8c23.25 0 56 12.25 56 40zM224 144c0-50-50.75-80-96-80s-96 30-96 80c0 16 6.5 32.75 17 45 4.75 5.5 10.25 10.75 15.25 16.5 17.75 21.25 32.75 46.25 35.25 74.5h57c2.5-28.25 17.5-53.25 35.25-74.5 5-5.75 10.5-11 15.25-16.5 10.5-12.25 17-29 17-45zM256 144c0 25.75-8.5 48-25.75 67s-40 45.75-42 72.5c7.25 4.25 11.75 12.25 11.75 20.5 0 6-2.25 11.75-6.25 16 4 4.25 6.25 10 6.25 16 0 8.25-4.25 15.75-11.25 20.25 2 3.5 3.25 7.75 3.25 11.75 0 16.25-12.75 24-27.25 24-6.5 14.5-21 24-36.75 24s-30.25-9.5-36.75-24c-14.5 0-27.25-7.75-27.25-24 0-4 1.25-8.25 3.25-11.75-7-4.5-11.25-12-11.25-20.25 0-6 2.25-11.75 6.25-16-4-4.25-6.25-10-6.25-16 0-8.25 4.5-16.25 11.75-20.5-2-26.75-24.75-53.5-42-72.5s-25.75-41.25-25.75-67c0-68 64.75-112 128-112s128 44 128 112z" fill="currentColor" /> </svg> </span> <span class="pojo-a11y-toolbar-text">Light Background</span> </a></li>
+	<li class="pojo-a11y-toolbar-item"><a class="pojo-a11y-toolbar-link pojo-a11y-btn-links-underline" data-action="links-underline" data-action-group="toggle" href="#" tabindex="-1"><span class="pojo-a11y-toolbar-icon"><svg version="1.1" viewBox="0 0 448 448" width="1em"> <path d="M364 304c0-6.5-2.5-12.5-7-17l-52-52c-4.5-4.5-10.75-7-17-7-7.25 0-13 2.75-18 8 8.25 8.25 18 15.25 18 28 0 13.25-10.75 24-24 24-12.75 0-19.75-9.75-28-18-5.25 5-8.25 10.75-8.25 18.25 0 6.25 2.5 12.5 7 17l51.5 51.75c4.5 4.5 10.75 6.75 17 6.75s12.5-2.25 17-6.5l36.75-36.5c4.5-4.5 7-10.5 7-16.75zM188.25 127.75c0-6.25-2.5-12.5-7-17l-51.5-51.75c-4.5-4.5-10.75-7-17-7s-12.5 2.5-17 6.75l-36.75 36.5c-4.5 4.5-7 10.5-7 16.75 0 6.5 2.5 12.5 7 17l52 52c4.5 4.5 10.75 6.75 17 6.75 7.25 0 13-2.5 18-7.75-8.25-8.25-18-15.25-18-28 0-13.25 10.75-24 24-24 12.75 0 19.75 9.75 28 18 5.25-5 8.25-10.75 8.25-18.25zM412 304c0 19-7.75 37.5-21.25 50.75l-36.75 36.5c-13.5 13.5-31.75 20.75-50.75 20.75-19.25 0-37.5-7.5-51-21.25l-51.5-51.75c-13.5-13.5-20.75-31.75-20.75-50.75 0-19.75 8-38.5 22-52.25l-22-22c-13.75 14-32.25 22-52 22-19 0-37.5-7.5-51-21l-52-52c-13.75-13.75-21-31.75-21-51 0-19 7.75-37.5 21.25-50.75l36.75-36.5c13.5-13.5 31.75-20.75 50.75-20.75 19.25 0 37.5 7.5 51 21.25l51.5 51.75c13.5 13.5 20.75 31.75 20.75 50.75 0 19.75-8 38.5-22 52.25l22 22c13.75-14 32.25-22 52-22 19 0 37.5 7.5 51 21l52 52c13.75 13.75 21 31.75 21 51z" fill="currentColor" /> </svg> </span> <span class="pojo-a11y-toolbar-text">Links Underline</span> </a></li>
+	<li class="pojo-a11y-toolbar-item"><a class="pojo-a11y-toolbar-link pojo-a11y-btn-readable-font" data-action="readable-font" data-action-group="toggle" href="#" tabindex="-1"><span class="pojo-a11y-toolbar-icon"><svg version="1.1" viewBox="0 0 448 448" width="1em"> <path d="M181.25 139.75l-42.5 112.5c24.75 0.25 49.5 1 74.25 1 4.75 0 9.5-0.25 14.25-0.5-13-38-28.25-76.75-46-113zM0 416l0.5-19.75c23.5-7.25 49-2.25 59.5-29.25l59.25-154 70-181h32c1 1.75 2 3.5 2.75 5.25l51.25 120c18.75 44.25 36 89 55 133 11.25 26 20 52.75 32.5 78.25 1.75 4 5.25 11.5 8.75 14.25 8.25 6.5 31.25 8 43 12.5 0.75 4.75 1.5 9.5 1.5 14.25 0 2.25-0.25 4.25-0.25 6.5-31.75 0-63.5-4-95.25-4-32.75 0-65.5 2.75-98.25 3.75 0-6.5 0.25-13 1-19.5l32.75-7c6.75-1.5 20-3.25 20-12.5 0-9-32.25-83.25-36.25-93.5l-112.5-0.5c-6.5 14.5-31.75 80-31.75 89.5 0 19.25 36.75 20 51 22 0.25 4.75 0.25 9.5 0.25 14.5 0 2.25-0.25 4.5-0.5 6.75-29 0-58.25-5-87.25-5-3.5 0-8.5 1.5-12 2-15.75 2.75-31.25 3.5-47 3.5z" fill="currentColor" /> </svg> </span> <span class="pojo-a11y-toolbar-text">Readable Font</span> </a></li>
+	<li class="pojo-a11y-toolbar-item"><a class="pojo-a11y-toolbar-link pojo-a11y-btn-reset" data-action="reset" href="#" tabindex="-1"><span class="pojo-a11y-toolbar-icon"><svg version="1.1" viewBox="0 0 448 448" width="1em"> <path d="M384 224c0 105.75-86.25 192-192 192-57.25 0-111.25-25.25-147.75-69.25-2.5-3.25-2.25-8 0.5-10.75l34.25-34.5c1.75-1.5 4-2.25 6.25-2.25 2.25 0.25 4.5 1.25 5.75 3 24.5 31.75 61.25 49.75 101 49.75 70.5 0 128-57.5 128-128s-57.5-128-128-128c-32.75 0-63.75 12.5-87 34.25l34.25 34.5c4.75 4.5 6 11.5 3.5 17.25-2.5 6-8.25 10-14.75 10h-112c-8.75 0-16-7.25-16-16v-112c0-6.5 4-12.25 10-14.75 5.75-2.5 12.75-1.25 17.25 3.5l32.5 32.25c35.25-33.25 83-53 132.25-53 105.75 0 192 86.25 192 192z" fill="currentColor" /> </svg> </span> <span class="pojo-a11y-toolbar-text">Reset</span> </a></li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                         </div>   
+        </div>
+    </div>  
+
+    
+  </div>   
+
+      <div class="copyright">
+      <div class="container">
+        <div class="copyright-inner">
+              <div>
+    <div id="block-daudo-subtheme-copyright" class="block block-block-content block-block-content61f17841-749f-436d-9799-1dfeefd7ad43 no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="row">
+<div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-12">© Copyright <script>document.write(new Date().getFullYear());</script>| <a href="https://www.kipi.go.ke">Kenya Industrial Property Institute (KIPI)</a> | All Rights Reserved.</div>
+
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+<div class="social-copyright">
+<div class="socials">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+        </div>   
+      </div>   
+    </div>
+  
+</footer>
+<link rel='stylesheet' id='pojo-a11y-css'  href='https://www.kipi.go.ke/libraries/css/style.min.css' media='all' />
+<style type="text/css">
+   #pojo-a11y-toolbar .pojo-a11y-toolbar-toggle a{ background-color:#004E98;  color: #ffffff; border-radius: 50%;}
+   #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay, #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items.pojo-a11y-links{ border-color: #bb8114;}
+   body.pojo-a11y-focusable a:focus{ outline-style: solid !important;  outline-width: 1px !important;  outline-color: #FF0000 !important;}
+
+   #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay{ background-color: #ffffff;}
+   #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items li.pojo-a11y-toolbar-item a, #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay p.pojo-a11y-toolbar-title{ color: #333333;}
+   #pojo-a11y-toolbar .pojo-a11y-toolbar-overlay ul.pojo-a11y-toolbar-items li.pojo-a11y-toolbar-item a.active{ background-color: #4054b2; color: #ffffff;}
+
+</style>
+<script id='pojo-a11y-js-extra'>
+   var PojoA11yOptions = {"focusable":"","remove_link_target":"","add_role_links":"","enable_save":"","save_expiration":""};
+</script>
+<script src='https://www.kipi.go.ke/libraries/js/app.min.js?ver=1.0.0' id='pojo-a11y-js'></script>
+</div>
+
+
+  </div>
+
+    
+    <script src="/sites/default/files/js/js_a25cZaNNoRPRavTOQhvVW4x0HryeATwyP6aqHG5EUmM.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=daudo_subtheme&amp;include=eJxtjuEKwjAMhF9oax-ppOYWi7GVJh3s7RVFNpnkz90H3xGhtZAlpsEtirZMOptvWqpMTP66rLC4x_80XVrHJJ8x08LoSht6PKNAZnALS2_VUflrPUiQR1HerQM6We-Pk43sV9wRf2uwW6mBsdBQfwLhBVm4"></script>
+
+    
+        <div id="gva-overlay"></div>
+  </body>
+</html>
